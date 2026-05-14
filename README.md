@@ -13,7 +13,9 @@ It is a simple full-stack JavaScript application that allows users to upload a f
 ## 🚀 Live Demo
 
 👉 Click here to view live project:  
-https://caa5e0d1-f233-43d4-abb8-d25ea1133494-00-yir76p0skqx1.sisko.replit.dev/
+<a href="https://azamagr.github.io/API_Project_File_Metadata_Microservice/" target="_blank">
+  Live File Metadata Microservice
+</a>
 
 ---
 
