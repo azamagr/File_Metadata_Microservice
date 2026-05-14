@@ -1,9 +1,8 @@
 # 📁 File Metadata Microservice
 
-This project is part of the FreeCodeCamp APIs and Microservices certification.
+This is a full-stack JavaScript application built for the FreeCodeCamp **APIs and Microservices Certification**.
 
-It is a simple full-stack JavaScript application that allows users to upload a file and receive metadata about it, such as:
-
+It allows users to upload a file and returns metadata such as:
 - File name
 - File type
 - File size
@@ -12,16 +11,16 @@ It is a simple full-stack JavaScript application that allows users to upload a f
 
 ## 🚀 Live Demo
 
-👉 Click here to view live project:  
-<a href="https://azamagr.github.io/API_Project_File_Metadata_Microservice/" target="_blank">
-  Live File Metadata Microservice
-</a>
+👉 [Click here to view live project](https://caa5e0d1-f233-43d4-abb8-d25ea1133494-00-yir76p0skqx1.sisko.replit.dev/)
 
 ---
 
-## 📌 Project Description
+## 📌 Project Objective
 
-This project fulfills the requirements of the **File Metadata Microservice** from FreeCodeCamp. The main goal is to handle file uploads using `multer` and return JSON metadata.
+Build a File Metadata Microservice similar to:
+https://file-metadata-microservice.freecodecamp.rocks
+
+The main purpose is to handle file uploads and return file information in JSON format.
 
 ---
 
@@ -29,22 +28,22 @@ This project fulfills the requirements of the **File Metadata Microservice** fro
 
 - Node.js
 - Express.js
-- Multer
+- Multer (for file uploading)
 - JavaScript (ES6)
-- HTML / CSS (optional frontend)
+- HTML / CSS
 
 ---
 
-## 📂 API Endpoint
+## 📡 API Endpoint
 
 ### POST `/api/fileanalyse`
 
-Upload a file and receive metadata response.
+Upload a file to get metadata response.
 
-#### Response Example:
+### 📥 Example Response:
 ```json
 {
   "name": "example.png",
   "type": "image/png",
-  "size": 23056
+  "size": 24567
 }
